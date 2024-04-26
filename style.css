@@ -1,97 +1,34 @@
-margin: 0;
-padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-body{
-font-family: "Open Sans", sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.cabeçalho {
-background-color: #5F0F40;
-display: flex;
-padding: 24px 0;
-justify-content: space-around;
-align-items: center;
+.cabecalho {
+    background-color: #5F0F40;
+    display: flex;
+    padding: 24px 0;
+   justify-content: space-around;
+   align-items: center;
+}
+.cabecalho-imagem{
+    width: 20%;
 }
 
-.cabeçalho-título {
-color: #FA725A;
-font-size: 48px;
+.cabecalho-lista-item1{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 24px;
+}
+.cabecalho-lista-item2{
+    display: inline-block;
+    margin: 16px;
 }
 
-.cabeçalho-lista {
-color: white;
-font-size: 24px;
-}
-
-.cabeçalho-lista-item1 {
-display: inline-block;
-margin: 0 16px;
-}
-
-.cabeçalho-lista-item2 {
-display: inline-block;
-margin: 0 16px;
-}
-
-.cabeçalho-imagem {
-width: 10%;
-}
-
-.Apresentação {
-background-image: linear-gradient(#5F0F40, #C51F85);
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 24px 0;
-}
-
-.Apresentação-conteúdo{
-width: 30%;
-padding: 24px,0;
-justify-content: center;
-}
-
-.Apresentação-título {
-font-size: 36px;
-padding: 24px;
-}
-
-.Apresentação-parágrafo {
-font-size: 32px;
-padding: 24px;
-}
-
-
-.Apresentação-imagem {
-width: 20%;
-}
-
-.equipe {
-background-color: #C51F85;
-color: white;
-}
-
-.equipe-imagem{
-width: 120px;
-}
-
-.ícones{
-width: 26px;
-}
-
-.equipe-conteúdo{
-text-align: center;
-padding: 24px;
-}
-
-.equipe-título {
-text-align: center;
-font-size: 36px;
-}
-
-.equipe-todos {
-display: grid;
-grid-template-columns: 20% 20% 20% 20% 20%;
+.Apresentacao-imagem{
+    width: 20%;
 }
