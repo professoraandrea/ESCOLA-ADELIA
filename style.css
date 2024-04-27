@@ -76,3 +76,21 @@ body {
 .equipe-imagem{
     width: 120px;
 }
+.ícones{
+    width: 26px;
+}
+
+.equipe-conteúdo{
+  text-align: center;
+  padding: 24px;
+}
+
+.equipe-título {
+    text-align: center;
+    font-size: 36px;
+}
+
+.equipe-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
