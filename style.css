@@ -77,6 +77,10 @@ body {
     width: 130px;
 }
 
-.icones{
+.ícones{
     width: 26px;
+}
+
+.equipe-conteúdo{
+    align-items: center;
 }
