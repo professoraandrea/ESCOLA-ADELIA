@@ -90,3 +90,7 @@ body {
     text-align: center;
     font-size: 36px;
 }
+
+.equipe-todos {
+    display: grid;
+}
